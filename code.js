@@ -35,15 +35,20 @@
 //    }
 
 
-function isVowel(x){
-    if(typeof x != 'string'){
-        return false;
-    }else {
-        let a = x.toLowerCase();
-        if(a == 'a' ||a == 'e' || a == 'i' || a == 'o' || a == 'u'){
-            return true;
-        } else{
-            return false;
-        }
-    }
+// function isVowel(x){
+//     if(typeof x != 'string'){
+//         return false;
+//     }else {
+//         let a = x.toLowerCase();
+//         if(a == 'a' ||a == 'e' || a == 'i' || a == 'o' || a == 'u'){
+//             return true;
+//         } else{
+//             return false;
+//         }
+//     }
+// }
+
+
+function add(x,y){
+        return parseInt(x) + parseInt(y);
 }
