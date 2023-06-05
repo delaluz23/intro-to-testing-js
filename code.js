@@ -3,5 +3,10 @@ function helloWorld() {
     return "Hello, World!";
 }
 function sayHello(x){
-    return ("Hello" + x);
+    // if(typeof(x) === 'string') {
+        return (`Hello, ${x}!`);
+    // }else{
+    //     return false;
+    // }
+
 }
